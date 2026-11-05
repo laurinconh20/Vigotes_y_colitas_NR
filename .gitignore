@@ -39,6 +39,8 @@ venv/
 venv*/
 env/
 ENV/
+.python/
+.uv-cache/
 
 # Django
 db.sqlite3

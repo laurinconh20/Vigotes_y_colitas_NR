@@ -127,7 +127,7 @@
             {% else %}
                 <p class="empty">No hay citas registradas.</p>
             {% endif %}
-            <a href="{% url 'citas:crear_cita' %}"><button type="button" style="margin-top: 12px;">Agendar cita</button></a>
+            <a href="{% url 'citas:crear_cita' %}?mascota={{ cliente.pk }}:{{ mascota.id }}"><button type="button" style="margin-top: 12px;">Agendar cita</button></a>
         </section>
 
         <section class="panel">
